@@ -6,7 +6,7 @@ applications:
       GRANT_TYPE: client_credentials
       JAVA_OPTS: '-Xms64m -Xmx256m'
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ }, memory_calculator: { stack_threads: 100} }'
-      REGISTRATION_SERVER_ENDPOINT: 'http://registration-pal-raja-shiv.cfapps.io'
+      REGISTRATION_SERVER_ENDPOINT: http://registration-pal-raja-shiv.cfapps.io
       services:
         - tracker-backlog-database
     instances: 1
