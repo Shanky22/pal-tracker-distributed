@@ -13,3 +13,4 @@ applications:
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ }, memory_calculator: { stack_threads: 100} }'
     services:
       - tracker-registration-database
+      - tracker-service-registry
