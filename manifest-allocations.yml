@@ -3,7 +3,7 @@ applications:
   - name: tracker-allocations
     path: ./applications/allocations-server/build/libs/allocations-server.jar
     routes:
-      - route: allocations-pal-raja-shiv.cfapps.io
+      - route: allocations-pal-raja-shiv-dev.cfapps.io
     memory: 475M
     disk_quota: 475M
     instances: 1

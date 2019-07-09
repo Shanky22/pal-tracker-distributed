@@ -3,7 +3,7 @@ applications:
   - name: tracker-registration
     path: ./applications/registration-server/build/libs/registration-server.jar
     routes:
-      - route: registration-pal-raja-shiv.cfapps.io
+      - route: registration-pal-raja-shiv-dev.cfapps.io
     memory: 475M
     disk_quota: 475M
     instances: 1

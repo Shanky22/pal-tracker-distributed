@@ -3,7 +3,7 @@ applications:
   - name: tracker-timesheets
     path: ./applications/timesheets-server/build/libs/timesheets-server.jar
     routes:
-      - route: timesheets-pal-raja-shiv.cfapps.io
+      - route: timesheets-pal-raja-shiv-dev.cfapps.io
     memory: 475M
     disk_quota: 475M
     instances: 1
